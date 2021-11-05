@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        boolean exit = false;
+        
         Scanner inp =  new Scanner(System.in);
 
-        while(!exit){
+        while(true){
             System.out.println("type anything to roll, type \"exit\" to quit");
             String check = inp.nextLine();
             if (check.equalsIgnoreCase("exit")){
